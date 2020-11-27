@@ -1,0 +1,357 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Calibri (Corps), Sans Sherif;
+}
+li{
+	list-style-type: none;
+}
+.section-nav, .section-header, .section-stand-blog-html, .section-deux-col, .seciton-footer {
+	margin-bottom: 10px;
+	width: 100%;
+
+}
+.content-section-stand-blog-html, .content-secion-deux-col, .content-section-footer {
+	margin: auto;
+	width: 90%;
+}
+/*navigation*/
+.content-section-nav {
+	background-color: #eee;
+	padding: 30px 60px 35px 70px;
+	overflow: auto;
+}
+.stand-blog {
+	float: left;
+
+}
+
+.stand-blog p b {
+	font-size: 23px;
+}
+.menu {
+	float: right;
+	
+}
+.menu li {
+	display: inline-block;
+	padding-right: 20px;
+}
+.menu .home {
+	color: rgb(255, 120, 55);
+}
+/*header 3col*/
+.content-section-header {
+	overflow-y: auto;
+}
+.col-4{
+	width: 33.33%;
+	float: left;
+	padding: 5px;
+}
+.contenu-1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5) ,rgba(0, 0, 0, 0.5)), url('images/blog-thumb-01.jpg');
+	height: 300px;
+	background-position: center center;
+}
+.content-content-1 {
+	padding-top: 50%;
+	padding-left: 50px;
+	color: #fff;
+}
+.content-content-1 h3 {
+	color: rgb(255, 120, 55);
+}
+.content-content-1 .border {
+	border-right: 1px solid white;
+	border-left: 1px solid white;
+	padding: 0 10px;
+}
+.contenu-2 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5) ,rgba(0, 0, 0, 0.5)), url('images/blog-thumb-02.jpg');
+	height: 300px;
+	background-position: center center;
+}
+.content-content-1 p {
+	font-size: 20px;
+}
+.content-admin div {
+	display: inline-block;
+	padding-top: 10px;
+
+}
+.content-admin {
+	margin-top: 10px;
+}
+.contenu-3 {
+	background: linear-gradient(rgba(0, 0, 0, 0.5) ,rgba(0, 0, 0, 0.5)), url('images/banner-item-03.jpg');
+	height: 300px;
+	background-position: center center;
+
+}
+
+/*stand bloc html template*/
+.section-stand-blog-html {
+	height: 300px;
+	padding: 100px 50px 100px 20px;
+}
+.content-section-stand-blog-html {
+	background: linear-gradient(rgba(0, 0, 0, 0.9) ,rgba(0, 0, 0, 0.9)), url('images/blog-thumb-03.jpg');
+	padding: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.conten-content-stand-blog-html {
+	overflow: auto;
+}
+.stand-blog-html {
+	float: left;
+}
+.stand-blog-html p {
+	font-size: 25px;
+	color:rgb(255, 120, 55);
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+.DOWNLOAD {
+	float: right;
+	padding: 10px;
+}
+.DOWNLOAD {
+	background-color: rgb(255, 120, 55);
+	color: #fff;
+
+}
+.stand-blog-html h2 {
+	color: #fff;
+}
+/*life style section col2*/
+.content-secion-deux-col {
+	overflow-y: hidden;
+}
+.col-3 {
+	width: 25%;
+	float: left;
+	padding: 5px;
+}	
+.col-9 {
+	width: 75%;
+	float: left;
+	padding-right: 35px;
+}
+.fond-image-1 {
+	background-image: url(images/banner-item-01.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 300px;
+}
+.fond-image-2 {
+	background-image: url(images/banner-item-02.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 300px;
+}
+.fond-image-3 {
+	background-image: url(images/banner-item-03.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 300px;
+}
+.section-deux-col {
+	margin-top: 70px;
+}
+.LIFESTYLE, .healthy {
+	background-color: #fff;
+	padding: 40px;
+	border: 1px  solid #ddd;
+	margin-bottom: 40px;
+}
+.FASHION {
+	background-color: #fff;
+	padding: 40px;
+	border: 1px  solid #ddd;
+	margin-bottom: 20px;
+}
+.line-1 h2 {
+	color:  rgb(255, 120, 55);
+	padding-bottom: 10px;
+}
+.line-1 h3 {
+	color: #444;
+	padding-bottom: 10px;
+	border-bottom: 
+}
+.border-1{
+	border-right: 1px solid #999;
+	border-left: 1px solid #999;
+	padding: 0 12px;
+}
+.line-1 .content-admin {
+	color: #999;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #ddd;
+}
+.line-1 p {
+	padding: 20px;
+	color: #999;
+}
+.line-1 p span {
+	color: rgb(22, 156, 207);
+}
+.line {
+	overflow-y: auto;
+	border-top: 1px solid #ddd;
+	margin-top: 10px;
+	width: 550px;
+	margin-left: 30px;
+	padding: 40px 0 10px 10px;
+}
+.line .Beauty {
+	float: left;
+	color: #999;
+}
+.line .Facebook {
+	float: right;
+	color: #999;
+}
+.ion-ios-pricetag, .ion-share {
+	color: rgb(255, 120, 55);
+}
+.view-all-posts {
+	margin: auto;
+	background-color: rgba(255, 120, 55, 0.8);
+	padding: 20px; 
+
+}
+.view-all-posts p {
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+.type-to-search {
+	border: 1px solid #ddd;
+	padding: 15px;
+	color: #aaa;
+}
+.RECENT {
+	padding: 50px 30px 10px 0;
+	border-bottom:  1px solid #ddd; 
+}
+.RECENT h4 {
+	font-size: 18px;
+}
+.Vestibulum  {
+	padding: 20px 30px 10px 0;
+	border-bottom:  1px solid #ddd; 
+}
+
+.Vestibulum .date {
+	color: #999;
+	font-size: 13px;
+	padding-top: 19px;
+
+}
+.Vestibulum .text {
+	font-size: 20px;
+	font-weight: bold;
+}
+.CATEGORIES {
+	padding: 50px 30px 10px 0;
+	border-bottom:  1px solid #ddd;
+}
+.CATEGORIES h4 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.liste {
+	padding: 15px 15px 15px 0;
+}
+.liste li {
+	padding: 12px 12px 12px 0;
+}
+.TAG {
+	padding: 30px 30px 10px 0;
+	border-bottom:  1px solid #ddd;
+}
+.TAG h3 {
+	font-weight: bold;
+
+}
+#tableau {
+	padding: 20px 0px 20px 0;
+}
+#tableau td {
+	padding: 10px;
+	border: 1px solid #eee;
+	text-align: center;
+	color: #999;
+}
+/*footer*/
+.seciton-footer {
+	background-color: rgba(3, 2, 13, 0.9);
+	margin-top: 90px;
+	padding: 50px;
+}
+	
+.haut-of-footer {
+	border-bottom: 1px solid #555;
+	padding: 40px;
+	text-align: center;
+}
+.haut-of-footer li {
+	display: inline-block;
+	color: #fff;
+}
+.footer {
+	color: #fff;
+	padding: 50px;
+	text-align: center;
+}
+.footer .DESIGN {
+	border-left: 1px solid #999;
+	padding: 3px;
+}
+.footer .template {
+	color: rgb(255, 120, 55);
+}
+
+.haut-of-footer {
+	font-weight: bold;
+}
+.haut-of-footer ul li {
+	border-right:1px solid #999;
+	padding: 0 15px;
+}
+.haut-of-footer ul li:last-child{
+	border-right: none;
+}
+@media only screen and (max-width: 768px) {
+	[class*="col"] {
+		width: 100%;
+		padding-right: 0;
+	}
+	#tableau {
+		width: 50%;
+	}
+	.line {
+		width: 100px;
+		margin-left: 0;
+	}
+	.line .Beauty {
+		float: left;
+	}
+	.DOWNLOAD {
+		margin-top: 50px;
+	}
+	.section-stand-blog-html {
+		height: 600px;
+	}
+
+}
