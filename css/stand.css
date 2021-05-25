@@ -1,4 +1,4 @@
-/* *{
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -7,7 +7,7 @@ body {
 	font-family: Calibri (Corps), Sans Sherif;
 }
 li{
-	list-style-type: none; */
+	list-style-type: none;
 }
 .section-nav, .section-header, .section-stand-blog-html, .section-deux-col, .seciton-footer {
 	margin-bottom: 10px;
